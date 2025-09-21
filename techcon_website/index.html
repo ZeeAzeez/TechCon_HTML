@@ -27,17 +27,19 @@
           great networking.
         </p>
 
-        <iframe
-          width="560"
-          height="315"
-          src="https://www.youtube.com/embed/X-bXe-yNa5Y?si=cDwVHwldrnWN9qUN"
-          title="TechCon 2024 Promo Video"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-          referrerpolicy="strict-origin-when-cross-origin"
-          allowfullscreen
-        >
-        </iframe>
+        <video controls aria-describedby="video-desc">
+          <source src="promo-video.mp4" type="video/mp4" />
+          <track
+            kind="captions"
+            src="promo-video.en.vtt"
+            srclang="en"
+            label="English"
+          />
+          Your browser does not support the video tag.
+        </video>
+        <p id="video-desc">
+          Promotional overview video describing the conference highlights.
+        </p>
       </section>
     </main>
 
